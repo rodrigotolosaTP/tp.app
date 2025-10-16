@@ -842,7 +842,7 @@ def ajustar_a_base(df_servicios: pd.DataFrame, df_ipc: pd.DataFrame, base: str) 
 # UI — Streamlit (bloque unificado)
 # =========================
 
-st.set_page_config(page_title="Transfer pricing tools", page_icon="📈", layout="centered")
+st.set_page_config(page_title="Transfer Pricing Tools", layout="centered")
 st.title("Herramientas para analisis de precios en transferencia de bienes y servicios")
 
 st.markdown(
@@ -2060,4 +2060,5 @@ with st.expander("7) Comparación interna de precios (CUPs)", expanded=False):
             file_name=("analisis_cup_vinos.xlsx" if tipo_analisis=="Vinos" else "analisis_cup_commodities.xlsx"),
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
+
 
