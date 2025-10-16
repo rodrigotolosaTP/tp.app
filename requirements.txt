@@ -1,0 +1,18 @@
+streamlit==1.50.0
+pandas==2.2.3
+numpy>=1.26
+requests==2.32.4
+matplotlib==3.10.1
+
+# Excel
+XlsxWriter==3.2.3
+openpyxl==3.1.5
+xlrd==2.0.1
+
+# Países / utilidades
+pycountry==24.6.1
+
+# PDF (solo lectura/parse sin Java)
+pdfplumber==0.11.4
+
+
