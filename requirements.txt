@@ -3,16 +3,20 @@ pandas==2.2.3
 numpy>=1.26
 requests==2.32.4
 matplotlib==3.10.1
+seaborn==0.13.2
 
 # Excel
 XlsxWriter==3.2.3
 openpyxl==3.1.5
 xlrd==2.0.1
 
-# Países / utilidades
+# Utilidades
 pycountry==24.6.1
 
-# PDF (solo lectura/parse sin Java)
+# PDF (sin Java)
 pdfplumber==0.11.4
+Pillow>=10
+
+
 
 
